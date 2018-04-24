@@ -6,7 +6,6 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.LinkedList;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Skaner {
@@ -192,7 +191,7 @@ public class Skaner {
 	
 	
 	public static void reading(){
-		   String mypath="C:/obiektowe/program.txt";
+		   String mypath="resources/program.txt";
            FileReader fr = null;
 		   String linia = "";
 		   int n=0;
@@ -240,7 +239,7 @@ public static void main(String[] a){
 	
 	
 	char symbol='0';
-	String filePath = "C:/obiektowe/color.html";
+	String filePath = "color.html";
 			FileWriter fileWriter = null;
 			String tocken;
             
